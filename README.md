@@ -1,25 +1,34 @@
-# AI Drone Bootcamp 🚁🤖
+# 🤖 AI-Drone Bootcamp
 
-Welcome to my **AI-Drone Bootcamp** project!  
-This repository documents my journey of building an **AI-powered drone simulation** that can detect colors, process images, and eventually navigate in ROS2 + Gazebo environments.
+Bu proje, **bitirme projem** kapsamında geliştirilen ve drone teknolojileriyle yapay zekayı birleştirmeyi hedefleyen bir çalışma alanıdır. Amaç, simüle edilmiş bir mağara ortamında drone’un:
+- Otonom şekilde gezinmesi,
+- Gaz yoğunluğunu haritalaması,
+- Renk/nesne algılama gibi bilgisayarla görme tekniklerini uygulaması,
+- ROS2 ve Gazebo üzerinde test edilmesi
 
----
-
-## 📂 Repository Structure
-- **00-roadmap.md** → My learning and project roadmap  
-- **01-python-basics/** → Python basics (variables, lists, functions)  
-- **04-cv-opencv/** → Computer Vision with OpenCV  
-  - `color_detect.py` → Simple color detection  
-  - `color_detect_v2.py` → Advanced color detection (HSV presets + mask filtering)  
-- **06-ros2-basics/** → ROS2 basic concepts and notes  
-- **07-gazebo-worlds/** → Gazebo simulation environment setup  
+üzerine odaklanmaktır.  
 
 ---
 
-## 🎯 Goals
-- Strengthen **Python** and **Computer Vision** fundamentals  
-- Learn **ROS2** basics  
-- Set up a **Gazebo simulation** environment  
-- Develop an **autonomous drone project** as part of my graduation thesis  
+## 📂 Klasör Yapısı
+
+- **01-python-basics/** → Python temelleri (değişkenler, fonksiyonlar, listeler)
+- **04-cv-opencv/** → OpenCV uygulamaları (renk algılama, kenar bulma)
+- **06-ros2-basics/** → ROS2 temel node örnekleri (🚧 yapım aşamasında)
+- **07-gazebo-worlds/** → Gazebo dünya dosyaları (🚧 yapım aşamasında)
+- **08-ai-drone-project/** → Ana bitirme projesi kodları (henüz oluşturulmadı)
+
+---
+
+## ✅ Yapılacaklar Listesi
+
+- [x] Python temelleri
+- [x] OpenCV ile renk/kenar algılama
+- [ ] ROS2 publisher/subscriber örnekleri
+- [ ] Gazebo’da basit bir dünya oluşturma
+- [ ] Drone spawn + kontrol
+- [ ] Gaz sensörü simülasyonu
+- [ ] Otonom gezinme algoritması (ör. A*, RRT)
+- [ ] Sensör verilerini kaydetme ve haritalama
 
 ---
