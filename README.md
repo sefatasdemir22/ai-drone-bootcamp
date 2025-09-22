@@ -11,9 +11,10 @@ Bu proje, **bitirme projem** kapsamında geliştirilen ve drone teknolojileriyle
 ---
 
 ## 📂 Klasör Yapısı
-
 - **01-python-basics/** → Python temelleri (değişkenler, fonksiyonlar, listeler)
 - **04-cv-opencv/** → OpenCV uygulamaları (renk algılama, kenar bulma)
+- **05-px4-mavsdk/** → PX4 SITL ile MAVSDK offboard kontrol testleri (kalkış, belirli yüksekliğe çıkış, havada kalış, iniş)
+
 - **06-ros2-basics/** → ROS2 temel node örnekleri (🚧 yapım aşamasında)
 - **07-gazebo-worlds/** → Gazebo dünya dosyaları (🚧 yapım aşamasında)
 - **08-ai-drone-project/** → Ana bitirme projesi kodları (henüz oluşturulmadı)
